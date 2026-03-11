@@ -46,6 +46,7 @@ nav.stuck { background: rgba(10,10,10,.95); backdrop-filter: blur(12px); border-
 }
 .nav-icon:hover, .nav-icon:focus-visible { color: #fff; border-color: rgba(255,255,255,.35); outline: none }
 .nav-coin:hover, .nav-coin:focus-visible { color: var(--gold); border-color: rgba(232,196,106,.4) }
+.nav-pump:hover, .nav-pump:focus-visible { color: #4ade80; border-color: rgba(74,222,128,.35) }
 .nav-coin span { font-size: 10px; letter-spacing: 2px }
 
 :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px }
@@ -180,6 +181,7 @@ footer { padding: 52px 52px; border-top: 1px solid rgba(255,255,255,.06); displa
 }
 .footer-link:hover { color: rgba(255,255,255,.7) }
 .footer-link-coin:hover { color: var(--gold) }
+.footer-link-pump:hover { color: #4ade80 }
 .footer-divider { color: rgba(255,255,255,.15); font-size: 14px }
 ```
 
@@ -198,12 +200,16 @@ footer { padding: 52px 52px; border-top: 1px solid rgba(255,255,255,.06); displa
     <li><a href="#legacy">Legacy</a></li>
   </ul>
   <div class="nav-ext">
-    <a href="https://x.com/stevecoinn?s=21" class="nav-icon" target="_blank" rel="noopener" aria-label="Steve Kiker on X (Twitter)">
+    <a href="https://x.com/steveoohq?s=21" class="nav-icon" target="_blank" rel="noopener" aria-label="Steve Kiker on X (Twitter)">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.91-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
     </a>
-    <a href="https://pump.fun/coin/3B1DsLPgWxvutNUMWchPhDJW1SpsGD8xNh7he3WTpump" class="nav-icon nav-coin" target="_blank" rel="noopener" aria-label="Steve's Coin — coming soon">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M12 6v2m0 8v2M9 12h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M10 9.5c0-.828.895-1.5 2-1.5s2 .672 2 1.5S13.105 11 12 11s-2 .672-2 1.5S10.895 14 12 14s2-.672 2-1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
+    <a href="https://pump.fun/coin/9WpdXMmP3NFL6W4zrKn6mayNE3izKTDWjBW6Y1Vgpump" class="nav-icon nav-coin" target="_blank" rel="noopener" aria-label="Steve's Coin on pump.fun">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M10 9.5c0-.828.895-1.5 2-1.5s2 .672 2 1.5S13.105 11 12 11s-2 .672-2 1.5S10.895 14 12 14s2-.672 2-1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
       <span>Coin</span>
+    </a>
+    <a href="https://join.pump.fun/HSag/juvnk3cm" class="nav-icon nav-pump" target="_blank" rel="noopener" aria-label="Join pump.fun">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12l7-7 7 7"/></svg>
+      <span>Buy</span>
     </a>
     <a href="https://www.eisenhourfh.com" class="nav-pill" target="_blank" rel="noopener">Funeral Home</a>
   </div>
@@ -437,14 +443,19 @@ footer { padding: 52px 52px; border-top: 1px solid rgba(255,255,255,.06); displa
 <footer role="contentinfo" style="background:var(--dark)">
   <span class="footer-name">Stephen Glenn Kiker &nbsp;·&nbsp; 1968–2022</span>
   <div class="footer-links">
-    <a href="https://x.com/stevecoinn?s=21" class="footer-link" target="_blank" rel="noopener" aria-label="X profile">
+    <a href="https://x.com/steveoohq?s=21" class="footer-link" target="_blank" rel="noopener" aria-label="X profile">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.91-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
       X&thinsp;/&thinsp;Twitter
     </a>
     <span class="footer-divider" aria-hidden="true">·</span>
-    <a href="https://pump.fun/coin/3B1DsLPgWxvutNUMWchPhDJW1SpsGD8xNh7he3WTpump" class="footer-link footer-link-coin" target="_blank" rel="noopener" aria-label="Steve's Coin">
+    <a href="https://pump.fun/coin/9WpdXMmP3NFL6W4zrKn6mayNE3izKTDWjBW6Y1Vgpump" class="footer-link footer-link-coin" target="_blank" rel="noopener" aria-label="Steve's Coin on pump.fun">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M10 9.5c0-.828.895-1.5 2-1.5s2 .672 2 1.5S13.105 11 12 11s-2 .672-2 1.5S10.895 14 12 14s2-.672 2-1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
       Steve's Coin
+    </a>
+    <span class="footer-divider" aria-hidden="true">·</span>
+    <a href="https://join.pump.fun/HSag/juvnk3cm" class="footer-link footer-link-pump" target="_blank" rel="noopener" aria-label="Buy on pump.fun">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12l7-7 7 7"/></svg>
+      Buy on Pump
     </a>
   </div>
   <span class="footer-note">Blanchard, Oklahoma &nbsp;·&nbsp; Remembered with love</span>
